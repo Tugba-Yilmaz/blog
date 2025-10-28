@@ -13,5 +13,13 @@
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       <description>A quick hello and what this blog will be about.</description>
     </item>
+    <item>
+  <title>My Second Post</title>
+  <link>https://tugba-yilmaz.github.io/blog/posts/2025-10-29-my-second-post.html</link>
+  <guid isPermaLink="true">https://tugba-yilmaz.github.io/blog/posts/2025-10-29-my-second-post.html</guid>
+  <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+  <description>This is my second post! I’m learning how to manage my blog structure.</description>
+</item>
+
   </channel>
 </rss>
