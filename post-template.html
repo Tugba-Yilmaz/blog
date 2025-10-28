@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}} — My Blog</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <meta name="description" content="{{SUMMARY}}">
+</head>
+<body>
+  <header>
+    <div class="brand"><a href="../index.html">My Blog</a></div>
+    <nav aria-label="Breadcrumb"><a href="../index.html">← Back to Home</a></nav>
+  </header>
+
+  <main>
+    <article aria-labelledby="post-title">
+      <header>
+        <h1 id="post-title">{{TITLE}}</h1>
+        <p><time datetime="{{DATE_ISO}}">{{DATE_HUMAN}}</time></p>
+      </header>
+
+      <section>
+        <p>{{PARAGRAPH_1}}</p>
+        <p>{{PARAGRAPH_2}}</p>
+      </section>
+
+      <hr>
+
+      <footer>
+        <p>Thanks for reading! <a href="../index.html">See all posts</a>.</p>
+      </footer>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <small>© {{YEAR}} Your Pen‑Name • <a href="../rss.xml">RSS</a></small>
+  </footer>
+</body>
+</html>
